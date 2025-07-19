@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Toronto Trails Map (ArcGIS)</title>
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1,user-scalable=no">
+  <link rel="stylesheet" href="https://js.arcgis.com/4.28/esri/themes/light/main.css">
+  <script src="https://js.arcgis.com/4.28/"></script>
+  <style>
+    html, body, #viewDiv {
+      padding: 0;
+      margin: 0;
+      height: 100%;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <div id="viewDiv"></div>
+
+  <script>
+  require([
+    "esri/Map",
+    "esri/views/MapView",
+    "esri/layers/GeoJSONLayer",
+    "esri/widgets/Legend"
+  ], (Map, MapView, GeoJSONLayer, Legend) => {
+
+    const map = new Map({
+      basemap: "streets-navigation-vector"
+    });
+
+    const view = new MapView({
+      container: "viewDiv",
+      map: map,
+      center: [-79.4, 43.7], // Toronto
+      zoom: 11
+    });
+
+    // --- Trails Layers ---
+    const geojsonFiles = [
+      "toronto_trails.geojson",
+      "toronto_trails1.geojson",
+      "toronto_trails2.geojson",
+      "toronto_trails3.geojson",
+      "toronto_trails4.geojson"
+    ];
+
+    const trailColors = {
+      "toronto_trails.geojson": "#0077ff",  // Blue
+      "toronto_trails1.geojson": "#00cc44", // Green
+      "toronto_trails2.geojson": "#ff0000", // Red
+      "toronto_trails3.geojson": "#ff9900", // Orange
+      "toronto_trails4.geojson": "#808080"  // Grey
+    };
+
+    const trailNames = {
+      "toronto_trails.geojson": "Safe Trail",
+      "toronto_trails1.geojson": "Safe Bikelane",
+      "toronto_trails2.geojson": "Unprotected / Shared Bike Lane",
+      "toronto_trails3.geojson": "Less Safe Bikelanes",
+      "toronto_trails4.geojson": "Bike Trails (Not Rated for Danger)"
+    };
+
+    geojsonFiles.forEach(file => {
+      const layer = new GeoJSONLayer({
+        url: file,
+        title: trailNames[file] || "Trail",
+        renderer: {
+          type: "simple",
+          symbol: {
+            type: "simple-line",
+            color: trailColors[file],
+            width: 2
+          }
+        },
+        popupTemplate: {
+          title: "{name}",
+          content: "Trail data: " + (trailNames[file] || file)
+        }
+      });
+      map.add(layer);
+    });
+
+    // --- Schools Layer ---
+    const schoolLayer = new GeoJSONLayer({
+      url: "final_schools_flat.geojson",
+      title: "Secondary Schools",
+      renderer: {
+        type: "simple",
+        symbol: {
+          type: "simple-marker",
+          style: "circle",
+          color: "#ffcc00",
+          size: 8,
+          outline: { color: "#333", width: 1 }
+        }
+      },
+      popupTemplate: {
+        title: "{name}",
+        content: `
+          <b>Grades:</b> {Grades}<br>
+          <b>Address:</b> {Address}<br>
+          <b>Fraser Score:</b> {Fraser Institute Score}<br>
+          <b>Fraser Rank:</b> {Fraser Institute Rank}<br>
+          <a href="{Website}" target="_blank">Visit Website</a>
+        `
+      }
+    });
+    map.add(schoolLayer);
+
+    // --- Bike Station Layers ---
+    const bikeFiles = [
+      "bike_station.geojson",
+      "bike_station1.geojson",
+      "bike_station2.geojson",
+      "bike_station3.geojson",
+      "bike_station4.geojson",
+      "bike_station5.geojson",
+      "bike_station6.geojson",
+      "bike_station7.geojson",
+      "bike_station8.geojson",
+      "bike_station9.geojson",
+      "bike_station10.geojson",
+      "bike_station11.geojson",
+      "bike_station12.geojson",
+      "bike_station13.geojson",
+      "bike_station14.geojson",
+      "bike_station15.geojson",
+      "bike_station16.geojson",
+      "bike_station17.geojson"
+    ];
+
+    // All stations use blue now
+    const stationColor = "#0077ff";
+
+    bikeFiles.forEach(file => {
+      const stationLayer = new GeoJSONLayer({
+        url: file,
+        title: "Bike Stations",
+        renderer: {
+          type: "simple",
+          symbol: {
+            type: "simple-marker",
+            style: "circle",
+            size: 6,
+            color: stationColor,
+            outline: { color: "#000", width: 1 }
+          }
+        },
+        popupTemplate: {
+          title: "{name}",
+          content: "Capacity: {capacity}<br>Address: {address}"
+        }
+      });
+      map.add(stationLayer);
+    });
+
+    const legend = new Legend({
+      view: view,
+      style: "card"
+    });
+
+    view.ui.add(legend, "bottom-right");
+  });
+</script>
+
+</body>
+</html>

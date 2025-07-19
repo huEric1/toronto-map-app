@@ -1,0 +1,2165 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.367698,
+          43.805832
+        ]
+      },
+      "properties": {
+        "name": "A Y Jackson Secondary School",
+        "address": "50 Francine Dr, North York",
+        "Grades": "Grades 10\u201312",
+        "Website": "http://www.ayjackson.ca/",
+        "Fraser Institute Score": "7.9",
+        "Fraser Institute Rank": "77/689"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.27857,
+          43.78891
+        ]
+      },
+      "properties": {
+        "name": "Agincourt Collegiate Institute",
+        "address": "2621 Midland Ave, Scarborough",
+        "Grades": "Grade 9\u201312",
+        "Website": "http://schoolweb.tdsb.on.ca/agincourtci/Home.aspx",
+        "Fraser Institute Score": "8.3",
+        "Fraser Institute Rank": "41/689"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.26234,
+          43.78053
+        ]
+      },
+      "properties": {
+        "name": "Albert Campbell Collegiate Institute",
+        "address": "1550 Sandhurst Cir, Scarborough",
+        "Grades": "Grades 9\u201312",
+        "Website": "http://schoolweb.tdsb.on.ca/albertcampbell/Home.aspx",
+        "Fraser Institute Score": "7.0",
+        "Fraser Institute Rank": "210/689"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.26013,
+          43.78512
+        ]
+      },
+      "properties": {
+        "name": "Alternative Scarborough Education",
+        "address": "60 Brimorton Dr, Scarborough",
+        "Grades": "Grades 11\u201312",
+        "Website": "http://aseone.ca/moodle/",
+        "Fraser Institute Score": "N/A",
+        "Fraser Institute Rank": "N/A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.45912,
+          43.7545
+        ]
+      },
+      "properties": {
+        "name": "Avondale Alternative Secondary School",
+        "address": "171 Avondale Ave, North York",
+        "Grades": "Grades 9\u201312",
+        "Website": "http://schoolweb.tdsb.on.ca/avondalesa/Home.aspx",
+        "Fraser Institute Score": "N/A",
+        "Fraser Institute Rank": "N/A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.25736,
+          43.78805
+        ]
+      },
+      "properties": {
+        "name": "Bendale Business and Technical Institute",
+        "address": "1555 Midland Ave, Scarborough",
+        "Grades": "Grades 9\u201312",
+        "Website": "http://schoolweb.tdsb.on.ca/bendale/Home.aspx",
+        "Fraser Institute Score": "N/A",
+        "Fraser Institute Rank": "N/A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.29305,
+          43.77338
+        ]
+      },
+      "properties": {
+        "name": "Birchmount Park Collegiate Institute",
+        "address": "3663 Danforth Ave, Scarborough",
+        "Grades": "Grades 9\u201312",
+        "Website": "http://schools.tdsb.on.ca/birchmount/",
+        "Fraser Institute Score": "5.2",
+        "Fraser Institute Rank": "496/689"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.43939,
+          43.66295
+        ]
+      },
+      "properties": {
+        "name": "Bloor Collegiate Institute",
+        "address": "1141 Bloor St W, Toronto, ON",
+        "Grades": "Grades 9\u201312",
+        "Website": "http://schoolweb.tdsb.on.ca/bloorci/Home.aspx",
+        "Fraser Institute Score": "8.5",
+        "Fraser Institute Rank": "26/689"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.56107,
+          43.66065
+        ]
+      },
+      "properties": {
+        "name": "Burnhamthorpe Collegiate Institute",
+        "address": "500 The East Mall, Etobicoke",
+        "Grades": "Grades 9\u201312",
+        "Website": "http://www.burnhamthorpe.org/",
+        "Fraser Institute Score": "N/A",
+        "Fraser Institute Rank": "N/A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.44422,
+          43.79305
+        ]
+      },
+      "properties": {
+        "name": "C W Jefferys Collegiate Institute",
+        "address": "340 Sentinel Rd, North York",
+        "Grades": "Grades 9\u201312",
+        "Website": "http://schoolweb.tdsb.on.ca/cwjefferys/Home.aspx",
+        "Fraser Institute Score": "3.9",
+        "Fraser Institute Rank": "606/689"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.34862,
+          43.67744
+        ]
+      },
+      "properties": {
+        "name": "CALC Secondary School",
+        "address": "1 Danforth Ave, Toronto, ON",
+        "Grades": "Grades 9\u201312",
+        "Website": "N/A",
+        "Fraser Institute Score": "N/A",
+        "Fraser Institute Rank": "N/A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.26321,
+          43.78009
+        ]
+      },
+      "properties": {
+        "name": "Cedarbrae Collegiate Institute",
+        "address": "550 Markham Rd, Scarborough",
+        "Grades": "Grades 9\u201312",
+        "Website": "http://schoolweb.tdsb.on.ca/cedarbrae/Home.aspx",
+        "Fraser Institute Score": "5.4",
+        "Fraser Institute Rank": "471/689"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.53549,
+          43.63678
+        ]
+      },
+      "properties": {
+        "name": "Central Etobicoke High School",
+        "address": "10 Denfield St, Etobicoke",
+        "Grades": "Grades 9\u201312",
+        "Website": "http://schoolweb.tdsb.on.ca/centraletobicoke/Home.aspx",
+        "Fraser Institute Score": "2.7",
+        "Fraser Institute Rank": "651/689"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.40126,
+          43.66141
+        ]
+      },
+      "properties": {
+        "name": "Central Technical School",
+        "address": "725 Bathurst St, Toronto",
+        "Grades": "Grades 9\u201312",
+        "Website": "http://schools.tdsb.on.ca/centraltech/",
+        "Fraser Institute Score": "2.7",
+        "Fraser Institute Rank": "651/689"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.4123,
+          43.65902
+        ]
+      },
+      "properties": {
+        "name": "Central Toronto Academy",
+        "address": "570 Shaw St, Toronto",
+        "Grades": "Grades 9\u201312",
+        "Website": "http://schools.tdsb.on.ca/centraltorontoacademy/",
+        "Fraser Institute Score": "7.0",
+        "Fraser Institute Rank": "210/689"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.38302,
+          43.64043
+        ]
+      },
+      "properties": {
+        "name": "City School",
+        "address": "635 Queens Quay W, Toronto, ON",
+        "Grades": "Grades 11\u201312",
+        "Website": "http://www.cityschooltoronto.com/",
+        "Fraser Institute Score": "N/A",
+        "Fraser Institute Rank": "N/A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.37718,
+          43.65454
+        ]
+      },
+      "properties": {
+        "name": "Contact Alternative School",
+        "address": "132 Saint Patrick St, Toronto",
+        "Grades": "Grades 9\u201312",
+        "Website": "http://schoolweb.tdsb.on.ca/contact/Home.aspx",
+        "Fraser Institute Score": "N/A",
+        "Fraser Institute Rank": "N/A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.34025,
+          43.67643
+        ]
+      },
+      "properties": {
+        "name": "Danforth Collegiate and Technical Institute",
+        "address": "800 Greenwood Ave, Toronto",
+        "Grades": "Grades 9\u201312",
+        "Website": "http://danforthcti.com/",
+        "Fraser Institute Score": "6.0",
+        "Fraser Institute Rank": "378/689"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.26031,
+          43.78484
+        ]
+      },
+      "properties": {
+        "name": "David and Mary Thomson Collegiate Institute",
+        "address": "2740 Lawrence Ave E, Scarborough",
+        "Grades": "Grades 9\u201312",
+        "Website": "http://www.thomsoncollegiate.ca/",
+        "Fraser Institute Score": "N/A",
+        "Fraser Institute Rank": "N/A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.17423,
+          43.77954
+        ]
+      },
+      "properties": {
+        "name": "Delphi Secondary Alternative School",
+        "address": "109A Chartland Blvd S, Scarborough",
+        "Grades": "Grades 9\u201312",
+        "Website": "http://schoolweb.tdsb.on.ca/delphi/Home.aspx",
+        "Fraser Institute Score": "N/A",
+        "Fraser Institute Rank": "N/A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.35796,
+          43.77738
+        ]
+      },
+      "properties": {
+        "name": "Don Mills Collegiate Institute",
+        "address": "15 The Donway E, North York",
+        "Grades": "Grades 9\u201312",
+        "Website": "http://schoolweb.tdsb.on.ca/donmillsci/Home.aspx",
+        "Fraser Institute Score": "N/A",
+        "Fraser Institute Rank": "N/A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.46204,
+          43.75342
+        ]
+      },
+      "properties": {
+        "name": "Downsview Secondary School",
+        "address": "7 Hawksdale Rd, North York",
+        "Grades": "Grades 9\u201312",
+        "Website": "http://schoolweb.tdsb.on.ca/downsview/Home.aspx",
+        "Fraser Institute Score": "N/A",
+        "Fraser Institute Rank": "N/A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.19668,
+          43.78038
+        ]
+      },
+      "properties": {
+        "name": "Dr Norman Bethune Collegiate Institute",
+        "address": "200 Fundy Bay Blvd, Scarborough",
+        "Grades": "Grades 9\u201312",
+        "Website": "http://www.bethuneci.com/",
+        "Fraser Institute Score": "N/A",
+        "Fraser Institute Rank": "N/A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.42992,
+          43.78038
+        ]
+      },
+      "properties": {
+        "name": "Drewry Secondary School",
+        "address": "Drewry Secondary School Grades 9-12 70 Drewry Ave, North York http://schoolweb.tdsb.on.ca/drewry/Home.aspx",
+        "Grades": "Grades 9-12",
+        "Website": "http://schoolweb.tdsb.on.ca/drewry/Home.aspx",
+        "Fraser Institute Score": null,
+        "Fraser Institute Rank": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.40548,
+          43.77092
+        ]
+      },
+      "properties": {
+        "name": "Earl Haig Secondary School",
+        "address": "Earl Haig Secondary School Grades 9-12 100 Princess Ave, North York http://www.earlhaig.ca/main.php",
+        "Grades": "Grades 9-12",
+        "Website": "http://www.earlhaig.ca/main.php",
+        "Fraser Institute Score": null,
+        "Fraser Institute Rank": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.32915,
+          43.69149
+        ]
+      },
+      "properties": {
+        "name": "East York Alternative Secondary School",
+        "address": "East York Alternative Secondary School Grades 10-12 670 Cosburn Ave, East York http://www.eyalternative.com/",
+        "Grades": "Grades 10-12",
+        "Website": "http://www.eyalternative.com/",
+        "Fraser Institute Score": null,
+        "Fraser Institute Rank": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.32965,
+          43.69118
+        ]
+      },
+      "properties": {
+        "name": "East York Collegiate Institute",
+        "address": "East York Collegiate Institute Grades 9-12 650 Cosburn Ave, East York http://schoolweb.tdsb.on.ca/eastyork/Home.aspx",
+        "Grades": "Grades 9-12",
+        "Website": "http://schoolweb.tdsb.on.ca/eastyork/Home.aspx",
+        "Fraser Institute Score": null,
+        "Fraser Institute Rank": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.35024,
+          43.66454
+        ]
+      },
+      "properties": {
+        "name": "Eastdale Collegiate Institute",
+        "address": "Eastdale Collegiate Institute Grades 9-12 701 Gerrard St E, Toronto http://schoolweb.tdsb.on.ca/eastdaleci/Home.aspx",
+        "Grades": "Grades 9-12",
+        "Website": "http://schoolweb.tdsb.on.ca/eastdaleci/Home.aspx",
+        "Fraser Institute Score": null,
+        "Fraser Institute Rank": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.34092,
+          43.68064
+        ]
+      },
+      "properties": {
+        "name": "Eastern Commerce Collegiate Institute",
+        "address": "Eastern Commerce Collegiate Institute Grades 10-12 16 Phin Ave, Toronto http://schoolweb.tdsb.on.ca/easterncomm/Home.aspx",
+        "Grades": "Grades 10-12",
+        "Website": "http://schoolweb.tdsb.on.ca/easterncomm/Home.aspx",
+        "Fraser Institute Score": null,
+        "Fraser Institute Rank": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.54378,
+          43.74242
+        ]
+      },
+      "properties": {
+        "name": "Emery Collegiate Institute",
+        "address": "Emery Collegiate Institute Grades 9-12 3395 Weston Rd, North York http://schoolweb.tdsb.on.ca/emeryci/Home.aspx",
+        "Grades": "Grades 9-12",
+        "Website": "http://schoolweb.tdsb.on.ca/emeryci/Home.aspx",
+        "Fraser Institute Score": null,
+        "Fraser Institute Rank": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.50832,
+          43.64884
+        ]
+      },
+      "properties": {
+        "name": "Etobicoke Collegiate Institute",
+        "address": "Etobicoke Collegiate Institute Grades 9-12 86 Montgomery Rd, Etobicoke http://schoolweb.tdsb.on.ca/etobicokeci/Home.aspx",
+        "Grades": "Grades 9-12",
+        "Website": "http://schoolweb.tdsb.on.ca/etobicokeci/Home.aspx",
+        "Fraser Institute Score": null,
+        "Fraser Institute Rank": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.51132,
+          43.63945
+        ]
+      },
+      "properties": {
+        "name": "Etobicoke School of the Arts",
+        "address": "Etobicoke School of the Arts Grades 9-12 675 Royal York Road, Toronto, ON n/a",
+        "Grades": "Grades 9-12",
+        "Website": "n/a",
+        "Fraser Institute Score": null,
+        "Fraser Institute Rank": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.42409,
+          43.70036
+        ]
+      },
+      "properties": {
+        "name": "Forest Hill Collegiate Institute",
+        "address": "Forest Hill Collegiate Institute Grades 9-12 730 Eglinton Ave W, Toronto http://www.fhci.net/",
+        "Grades": "Grades 9-12",
+        "Website": "http://www.fhci.net/",
+        "Fraser Institute Score": null,
+        "Fraser Institute Rank": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.48922,
+          43.68324
+        ]
+      },
+      "properties": {
+        "name": "Frank Oke Secondary School",
+        "address": "Frank Oke Secondary School Grades 7-9 500 Alliance Ave, York n/a",
+        "Grades": "Grades 7-9",
+        "Website": "n/a",
+        "Fraser Institute Score": null,
+        "Fraser Institute Rank": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.46513,
+          43.68951
+        ]
+      },
+      "properties": {
+        "name": "George Harvey Collegiate Institute",
+        "address": "George Harvey Collegiate Institute Grades 9-12 1700 Keele St, York http://schoolweb.tdsb.on.ca/georgeharvey/AboutUs.aspx",
+        "Grades": "Grades 9-12",
+        "Website": "http://schoolweb.tdsb.on.ca/georgeharvey/AboutUs.aspx",
+        "Fraser Institute Score": null,
+        "Fraser Institute Rank": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.34362,
+          43.75322
+        ]
+      },
+      "properties": {
+        "name": "George S Henry Academy",
+        "address": "George S Henry Academy Grades 9-12 200 Graydon Hall Dr, North York http://www.gshenry.com/",
+        "Grades": "Grades 9-12",
+        "Website": "http://www.gshenry.com/",
+        "Fraser Institute Score": null,
+        "Fraser Institute Rank": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.34655,
+          43.77255
+        ]
+      },
+      "properties": {
+        "name": "Georges Vanier Secondary School",
+        "address": "Georges Vanier Secondary School Grades 10-12 3000 Don Mills Rd, North York n/a",
+        "Grades": "Grades 10-12",
+        "Website": "n/a",
+        "Fraser Institute Score": null,
+        "Fraser Institute Rank": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.32337,
+          43.68773
+        ]
+      },
+      "properties": {
+        "name": "Greenwood Secondary School",
+        "address": "Greenwood Secondary School Grades 9-12 24 Mountjoy Ave, Toronto http://greenwoodsecondaryschool.ca/",
+        "Grades": "Grades 9-12",
+        "Website": "http://greenwoodsecondaryschool.ca/",
+        "Fraser Institute Score": null,
+        "Fraser Institute Rank": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.40793,
+          43.65965
+        ]
+      },
+      "properties": {
+        "name": "Harbord Collegiate Institute",
+        "address": "Harbord Collegiate Institute Grades 9-12 286 Harbord St, Toronto http://www.harbordci.ca/",
+        "Grades": "Grades 9-12",
+        "Website": "http://www.harbordci.ca/",
+        "Fraser Institute Score": null,
+        "Fraser Institute Rank": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.39411,
+          43.65344
+        ]
+      },
+      "properties": {
+        "name": "Heydon Park Secondary School",
+        "address": "Heydon Park Secondary School Grades 9-12 70 D'Arcy St, Toronto http://www.tmw.to/members.php?uri=heydon-park-secondary-school",
+        "Grades": "Grades 9-12",
+        "Website": "http://www.tmw.to/members.php?uri=heydon-park-secondary-school",
+        "Fraser Institute Score": null,
+        "Fraser Institute Rank": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.46678,
+          43.66126
+        ]
+      },
+      "properties": {
+        "name": "Humberside Collegiate Institute",
+        "address": "Humberside Collegiate Institute Grades 9-12 280 Quebec Ave, Toronto http://schoolweb.tdsb.on.ca/humberside/Home.aspx",
+        "Grades": "Grades 9-12",
+        "Website": "http://schoolweb.tdsb.on.ca/humberside/Home.aspx",
+        "Fraser Institute Score": null,
+        "Fraser Institute Rank": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.35942,
+          43.65014
+        ]
+      },
+      "properties": {
+        "name": "Inglenook Community School",
+        "address": "Inglenook Community School Grades 11-12 19 Sackville St, Toronto http://schools.tdsb.on.ca/inglenook/",
+        "Grades": "Grades 11-12",
+        "Website": "http://schools.tdsb.on.ca/inglenook/",
+        "Fraser Institute Score": null,
+        "Fraser Institute Rank": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.37977,
+          43.66542
+        ]
+      },
+      "properties": {
+        "name": "Jarvis Collegiate Institute",
+        "address": "Jarvis Collegiate Institute Grades 9-12 495 Jarvis St, Toronto http://jarviscollegiate.com/",
+        "Grades": "Grades 9-12",
+        "Website": "http://jarviscollegiate.com/",
+        "Fraser Institute Score": null,
+        "Fraser Institute Rank": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.44741,
+          43.71756
+        ]
+      },
+      "properties": {
+        "name": "John Polanyi Collegiate Institute",
+        "address": "John Polanyi Collegiate Institute Grades 9-12 640 Lawrence Ave W, North York http://www.jpci.ca/",
+        "Grades": "Grades 9-12",
+        "Website": "http://www.jpci.ca/",
+        "Fraser Institute Score": null,
+        "Fraser Institute Rank": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.54742,
+          43.69215
+        ]
+      },
+      "properties": {
+        "name": "Kipling Collegiate Institute",
+        "address": "Kipling Collegiate Institute Grades 9-12 380 The Westway, Etobicoke http://schools.tdsb.on.ca/kiplingci/",
+        "Grades": "Grades 9-12",
+        "Website": "http://schools.tdsb.on.ca/kiplingci/",
+        "Fraser Institute Score": null,
+        "Fraser Institute Rank": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.30768,
+          43.80068
+        ]
+      },
+      "properties": {
+        "name": "L'Amoreaux Collegiate Institute",
+        "address": "L'Amoreaux Collegiate Institute Grades 9-12 2501 Bridletowne Cir, Scarborough http://schoolweb.tdsb.on.ca/lamoreaux/Home.aspx",
+        "Grades": "Grades 9-12",
+        "Website": "http://schoolweb.tdsb.on.ca/lamoreaux/Home.aspx",
+        "Fraser Institute Score": null,
+        "Fraser Institute Rank": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.51297,
+          43.60363
+        ]
+      },
+      "properties": {
+        "name": "Lakeshore Collegiate Institute",
+        "address": "Lakeshore Collegiate Institute Grades 9-12 350 Kipling Ave, Etobicoke http://www.lakeshorecollegiate.ca/",
+        "Grades": "Grades 9-12",
+        "Website": "http://www.lakeshorecollegiate.ca/",
+        "Fraser Institute Score": null,
+        "Fraser Institute Rank": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.40235,
+          43.72535
+        ]
+      },
+      "properties": {
+        "name": "Lawrence Park Collegiate Institute",
+        "address": "Lawrence Park Collegiate Institute Grades 9-12 125 Chatsworth Dr, Toronto http://schoolweb.tdsb.on.ca/lawrenceparkci/Home.aspx",
+        "Grades": "Grades 9-12",
+        "Website": "http://schoolweb.tdsb.on.ca/lawrenceparkci/Home.aspx",
+        "Fraser Institute Score": null,
+        "Fraser Institute Rank": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.35928,
+          43.71097
+        ]
+      },
+      "properties": {
+        "name": "Leaside High School",
+        "address": "Leaside High School Grades 9-12 200 Hanna Rd, East York http://schools.tdsb.on.ca/leasidehigh/",
+        "Grades": "Grades 9-12",
+        "Website": "http://schools.tdsb.on.ca/leasidehigh/",
+        "Fraser Institute Score": null,
+        "Fraser Institute Rank": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.22187,
+          43.80957
+        ]
+      },
+      "properties": {
+        "name": "Lester B Pearson Collegiate Institute",
+        "address": "Lester B Pearson Collegiate Institute Grades 9-12 150 Tapscott Rd, Scarborough http://www.pearsonci.net/",
+        "Grades": "Grades 9-12",
+        "Website": "http://www.pearsonci.net/",
+        "Fraser Institute Score": null,
+        "Fraser Institute Rank": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.29984,
+          43.68041
+        ]
+      },
+      "properties": {
+        "name": "Malvern Collegiate Institute",
+        "address": "Malvern Collegiate Institute Grades 9-12 55 Malvern Ave, Toronto http://schools.tdsb.on.ca/malvern/",
+        "Grades": "Grades 9-12",
+        "Website": "http://schools.tdsb.on.ca/malvern/",
+        "Fraser Institute Score": null,
+        "Fraser Institute Rank": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.19073,
+          43.74347
+        ]
+      },
+      "properties": {
+        "name": "Maplewood High School",
+        "address": "Maplewood High School Grades 9-12 120 Galloway Rd, Scarborough http://schoolweb.tdsb.on.ca/maplewood/Home.aspx",
+        "Grades": "Grades 9-12",
+        "Website": "http://schoolweb.tdsb.on.ca/maplewood/Home.aspx",
+        "Fraser Institute Score": null,
+        "Fraser Institute Rank": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -10.34529,
+          10.70585
+        ]
+      },
+      "properties": {
+        "name": "Marc Garneau Collegiate Institute",
+        "address": "Marc Garneau Collegiate Institute Grades 9-12 135 Overlea Blvd, East York http://schools.tdsb.on.ca/marcgarneau/",
+        "Grades": "Grades 9-12",
+        "Website": "http://schools.tdsb.on.ca/marcgarneau/",
+        "Fraser Institute Score": null,
+        "Fraser Institute Rank": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.55748,
+          43.66172
+        ]
+      },
+      "properties": {
+        "name": "Martingrove Collegiate Institute",
+        "address": "Martingrove Collegiate Institute Grades 9-12 50 Winterton Dr, Etobicoke http://schoolweb.tdsb.on.ca/martingrove/Home.aspx",
+        "Grades": "Grades 9-12",
+        "Website": "http://schoolweb.tdsb.on.ca/martingrove/Home.aspx",
+        "Fraser Institute Score": null,
+        "Fraser Institute Rank": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.34038,
+          43.6765
+        ]
+      },
+      "properties": {
+        "name": "Monarch Park Collegiate Institute",
+        "address": "Monarch Park Collegiate Institute Grades 9-12 1 Hanson St, Toronto http://monarchparkcollegiate.ca/",
+        "Grades": "Grades 9-12",
+        "Website": "http://monarchparkcollegiate.ca/",
+        "Fraser Institute Score": null,
+        "Fraser Institute Rank": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.37833,
+          43.66126
+        ]
+      },
+      "properties": {
+        "name": "Native Learning Centre",
+        "address": "Native Learning Centre Grades 9-12 83 Alexander St, Toronto n/a",
+        "Grades": "Grades 9-12",
+        "Website": "n/a",
+        "Fraser Institute Score": null,
+        "Fraser Institute Rank": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.20327,
+          43.74027
+        ]
+      },
+      "properties": {
+        "name": "Native Learning Centre East",
+        "address": "Native Learning Centre East Grades 9-12 145 Guildwood Parkway, Scarborough n/a",
+        "Grades": "Grades 9-12",
+        "Website": "n/a",
+        "Fraser Institute Score": null,
+        "Fraser Institute Rank": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.51185,
+          43.71309
+        ]
+      },
+      "properties": {
+        "name": "Nelson A Boylen Collegiate Institute",
+        "address": "Nelson A Boylen Collegiate Institute Grades 10-12 155 Falstaff Ave, North York http://schoolweb.tdsb.on.ca/nelsonaboylen/Home.aspx",
+        "Grades": "Grades 10-12",
+        "Website": "http://schoolweb.tdsb.on.ca/nelsonaboylen/Home.aspx",
+        "Fraser Institute Score": null,
+        "Fraser Institute Rank": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.43991,
+          43.79835
+        ]
+      },
+      "properties": {
+        "name": "Newtonbrook Secondary School",
+        "address": "Newtonbrook Secondary School Grades 9-12 155 Hilda Ave, North York http://schoolweb.tdsb.on.ca/newtonbrook/Home.aspx",
+        "Grades": "Grades 9-12",
+        "Website": "http://schoolweb.tdsb.on.ca/newtonbrook/Home.aspx",
+        "Fraser Institute Score": null,
+        "Fraser Institute Rank": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.58859,
+          43.71523
+        ]
+      },
+      "properties": {
+        "name": "North Albion Collegiate Institute",
+        "address": "North Albion Collegiate Institute Grades 9-12 2580 Kipling Ave, Etobicoke http://schools.tdsb.on.ca/northalbion/index.html",
+        "Grades": "Grades 9-12",
+        "Website": "http://schools.tdsb.on.ca/northalbion/index.html",
+        "Fraser Institute Score": null,
+        "Fraser Institute Rank": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.34946,
+          43.77239
+        ]
+      },
+      "properties": {
+        "name": "North East Year Round Alternative Centre",
+        "address": "North East Year Round Alternative Centre Grades 9-10 2900 Don Mills Rd, North York n/a",
+        "Grades": "Grades 9-10",
+        "Website": "n/a",
+        "Fraser Institute Score": null,
+        "Fraser Institute Rank": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.39315,
+          43.70862
+        ]
+      },
+      "properties": {
+        "name": "North Toronto Collegiate Institute",
+        "address": "North Toronto Collegiate Institute Grades 9-12 17 Broadway Ave, Toronto http://ntci.on.ca/",
+        "Grades": "Grades 9-12",
+        "Website": "http://ntci.on.ca/",
+        "Fraser Institute Score": null,
+        "Fraser Institute Rank": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.44046,
+          43.77315
+        ]
+      },
+      "properties": {
+        "name": "North West Year Round Alternative Centre",
+        "address": "North West Year Round Alternative Centre Grades 9-10 425 Patricia Ave, North York n/a",
+        "Grades": "Grades 9-10",
+        "Website": "n/a",
+        "Fraser Institute Score": null,
+        "Fraser Institute Rank": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.39354,
+          43.70706
+        ]
+      },
+      "properties": {
+        "name": "Northern Secondary School",
+        "address": "Northern Secondary School Grades 9-12 851 Mount Pleasant Rd, Toronto http://northern-secondary.com/Joomla/",
+        "Grades": "Grades 9-12",
+        "Website": "http://northern-secondary.com/Joomla/",
+        "Fraser Institute Score": null,
+        "Fraser Institute Rank": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.45771,
+          43.76934
+        ]
+      },
+      "properties": {
+        "name": "Northview Heights Secondary School",
+        "address": "Northview Heights Secondary School Grades 9-12 550 Finch Ave W, North York http://www.northviewheights.ca/",
+        "Grades": "Grades 9-12",
+        "Website": "http://www.northviewheights.ca/",
+        "Fraser Institute Score": null,
+        "Fraser Institute Rank": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.44415,
+          43.67983
+        ]
+      },
+      "properties": {
+        "name": "Oakwood Collegiate Institute",
+        "address": "Oakwood Collegiate Institute Grades 9-12 991 St Clair Ave W, Toronto https://sites.google.com/site/oakwoodcollegiate10/",
+        "Grades": "Grades 9-12",
+        "Website": "https://sites.google.com/site/oakwoodcollegiate10/",
+        "Fraser Institute Score": null,
+        "Fraser Institute Rank": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.39736,
+          43.64374
+        ]
+      },
+      "properties": {
+        "name": "Oasis Alternative Secondary School",
+        "address": "Oasis Alternative Secondary School Grades 9-12 20 Brant St, Toronto http://oasisartsandsocialchangeprogram.blogspot.ca/",
+        "Grades": "Grades 9-12",
+        "Website": "http://oasisartsandsocialchangeprogram.blogspot.ca/",
+        "Fraser Institute Score": null,
+        "Fraser Institute Rank": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.44097,
+          43.63966
+        ]
+      },
+      "properties": {
+        "name": "Parkdale Collegiate Institute",
+        "address": "Parkdale Collegiate Institute Grades 9-12 209 Jameson Ave, Toronto http://schoolweb.tdsb.on.ca/parkdale/Home.aspx",
+        "Grades": "Grades 9-12",
+        "Website": "http://schoolweb.tdsb.on.ca/parkdale/Home.aspx",
+        "Fraser Institute Score": null,
+        "Fraser Institute Rank": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.29844,
+          43.75618
+        ]
+      },
+      "properties": {
+        "name": "Parkview Alternative School",
+        "address": "Parkview Alternative School Grades 9-10 1641 Pharmacy Ave, Scarborough, ON n/a",
+        "Grades": "Grades 9-10",
+        "Website": "n/a",
+        "Fraser Institute Score": null,
+        "Fraser Institute Rank": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.23782,
+          43.71895
+        ]
+      },
+      "properties": {
+        "name": "R H King Academy",
+        "address": "R H King Academy Grades 9-12 3800 St Clair Ave E, Scarborough http://schools.tdsb.on.ca/rhking/",
+        "Grades": "Grades 9-12",
+        "Website": "http://schools.tdsb.on.ca/rhking/",
+        "Fraser Institute Score": null,
+        "Fraser Institute Rank": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.55425,
+          43.68996
+        ]
+      },
+      "properties": {
+        "name": "Richview Collegiate Institute",
+        "address": "Richview Collegiate Institute Grades 9-12 1738 Islington Ave, Etobicoke",
+        "Grades": "Grades 9-12",
+        "Website": "n/a",
+        "Fraser Institute Score": null,
+        "Fraser Institute Rank": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.33438,
+          43.66659
+        ]
+      },
+      "properties": {
+        "name": "Riverdale Collegiate Institute",
+        "address": "Riverdale Collegiate Institute Grades 9-12 1094 Gerrard St E, Toronto http://schoolweb.tdsb.on.ca/riverdale/home.aspx",
+        "Grades": "Grades 9-12",
+        "Website": "http://schoolweb.tdsb.on.ca/riverdale/home.aspx",
+        "Fraser Institute Score": null,
+        "Fraser Institute Rank": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.37562,
+          43.67287
+        ]
+      },
+      "properties": {
+        "name": "Rosedale Heights School of the Arts",
+        "address": "Rosedale Heights School of the Arts Grades 9-12 711 Bloor St E, Toronto http://rhsa.ca/",
+        "Grades": "Grades 9-12",
+        "Website": "http://rhsa.ca/",
+        "Fraser Institute Score": null,
+        "Fraser Institute Rank": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.49282,
+          43.67613
+        ]
+      },
+      "properties": {
+        "name": "Runnymede Collegiate Institute",
+        "address": "Runnymede Collegiate Institute Grades 9-12 569 Jane St, York http://schoolweb.tdsb.on.ca/runnymedeci/Home.aspx",
+        "Grades": "Grades 9-12",
+        "Website": "http://schoolweb.tdsb.on.ca/runnymedeci/Home.aspx",
+        "Fraser Institute Score": null,
+        "Fraser Institute Rank": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.27837,
+          43.72649
+        ]
+      },
+      "properties": {
+        "name": "SATEC @ W A Porter Collegiate Institute",
+        "address": "SATEC @ W A Porter Collegiate Institute Grades 9-12 40 Fairfax Cres, Scarborough http://www.satecatwaporter.ca/",
+        "Grades": "Grades 9-12",
+        "Website": "http://www.satecatwaporter.ca/",
+        "Fraser Institute Score": null,
+        "Fraser Institute Rank": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.26324,
+          43.72565
+        ]
+      },
+      "properties": {
+        "name": "Scarborough Centre for Alternative Studies",
+        "address": "Scarborough Centre for Alternative Studies Grades 10-12 720 Midland Ave, Scarborough http://www.scasonline.com/",
+        "Grades": "Grades 10-12",
+        "Website": "http://www.scasonline.com/",
+        "Fraser Institute Score": null,
+        "Fraser Institute Rank": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.53062,
+          43.68736
+        ]
+      },
+      "properties": {
+        "name": "Scarlett Heights Entrepreneurial Academy",
+        "address": "Scarlett Heights Entrepreneurial Academy Grades 9-12 15 Trehorne Dr, Etobicoke http://schoolweb.tdsb.on.ca/scarlettheights/Home.aspx",
+        "Grades": "Grades 9-12",
+        "Website": "http://schoolweb.tdsb.on.ca/scarlettheights/Home.aspx",
+        "Fraser Institute Score": null,
+        "Fraser Institute Rank": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.50802,
+          43.67217
+        ]
+      },
+      "properties": {
+        "name": "School of Experiential Education",
+        "address": "School of Experiential Education Grades 9-12 40 McArthur St, Etobicoke http://schoolweb.tdsb.on.ca/see/Home.aspx",
+        "Grades": "Grades 9-12",
+        "Website": "http://schoolweb.tdsb.on.ca/see/Home.aspx",
+        "Fraser Institute Score": null,
+        "Fraser Institute Rank": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.34133,
+          43.6771
+        ]
+      },
+      "properties": {
+        "name": "School of Life Experience",
+        "address": "School of Life Experience Grades 10-12 24 Mountjoy Ave, Toronto http://solealternative.ca/",
+        "Grades": "Grades 10-12",
+        "Website": "http://solealternative.ca/",
+        "Fraser Institute Score": null,
+        "Fraser Institute Rank": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.35176,
+          43.65899
+        ]
+      },
+      "properties": {
+        "name": "SEED Alternative School",
+        "address": "SEED Alternative School Grades 11-12 885 Dundas St E, 2nd Floor, Toronto",
+        "Grades": "Grades 11-12",
+        "Website": "n/a",
+        "Fraser Institute Score": null,
+        "Fraser Institute Rank": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.58116,
+          43.64835
+        ]
+      },
+      "properties": {
+        "name": "Silverthorn Collegiate Institute",
+        "address": "Silverthorn Collegiate Institute Grades 9-12 291 Mill Rd, Etobicoke http://www.silverthornci.com/",
+        "Grades": "Grades 9-12",
+        "Website": "http://www.silverthornci.com/",
+        "Fraser Institute Score": null,
+        "Fraser Institute Rank": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.29364,
+          43.78434
+        ]
+      },
+      "properties": {
+        "name": "Sir John A Macdonald Collegiate Institute",
+        "address": "Sir John A Macdonald Collegiate Institute Grades 9-12 2300 Pharmacy Ave, Scarborough http://schoolweb.tdsb.on.ca/johnamacdonald/Home.aspx",
+        "Grades": "Grades 9-12",
+        "Website": "http://schoolweb.tdsb.on.ca/johnamacdonald/Home.aspx",
+        "Fraser Institute Score": null,
+        "Fraser Institute Rank": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.16502,
+          43.78145
+        ]
+      },
+      "properties": {
+        "name": "Sir Oliver Mowat Collegiate Institute",
+        "address": "Sir Oliver Mowat Collegiate Institute Grades 9-12 5400 Lawrence Ave E, Scarborough http://schoolweb.tdsb.on.ca/sirolivermowat/Home.aspx",
+        "Grades": "Grades 9-12",
+        "Website": "http://schoolweb.tdsb.on.ca/sirolivermowat/Home.aspx",
+        "Fraser Institute Score": null,
+        "Fraser Institute Rank": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.18761,
+          43.7579
+        ]
+      },
+      "properties": {
+        "name": "Sir Robert L Borden Business and Technical Institute",
+        "address": "Sir Robert L Borden Business and Technical Institute Grades 9-12 200 Poplar Rd, Scarborough http://www.bordenbti.ca/",
+        "Grades": "Grades 9-12",
+        "Website": "http://www.bordenbti.ca/",
+        "Fraser Institute Score": null,
+        "Fraser Institute Rank": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.19859,
+          43.74026
+        ]
+      },
+      "properties": {
+        "name": "Sir Wilfrid Laurier Collegiate Institute",
+        "address": "Sir Wilfrid Laurier Collegiate Institute Grades 9-12 145 Guildwood Pky, Scarborough http://www.sirwilfridlaurierci.ca/",
+        "Grades": "Grades 9-12",
+        "Website": "http://www.sirwilfridlaurierci.ca/",
+        "Fraser Institute Score": null,
+        "Fraser Institute Rank": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.30137,
+          43.78285
+        ]
+      },
+      "properties": {
+        "name": "Sir William Osler High School",
+        "address": "Sir William Osler High School Grades 9-12 1050 Huntingwood Dr, Scarborough http://schoolweb.tdsb.on.ca/sirwilliamosler/Home.aspx",
+        "Grades": "Grades 9-12",
+        "Website": "http://schoolweb.tdsb.on.ca/sirwilliamosler/Home.aspx",
+        "Fraser Institute Score": null,
+        "Fraser Institute Rank": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.26324,
+          43.72565
+        ]
+      },
+      "properties": {
+        "name": "South East Year Round Alternative Centre",
+        "address": "South East Year Round Alternative Centre Grades 9-12 720 Midland Ave, Scarborough",
+        "Grades": "Grades 9-12",
+        "Website": "n/a",
+        "Fraser Institute Score": null,
+        "Fraser Institute Rank": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.2844,
+          43.7765
+        ]
+      },
+      "properties": {
+        "name": "Stephen Leacock Collegiate Institute",
+        "address": "Stephen Leacock Collegiate Institute Grades 9-12 2450 Birchmount Rd, Scarborough, ON http://stephenleacock.ca/",
+        "Grades": "Grades 9-12",
+        "Website": "http://stephenleacock.ca/",
+        "Fraser Institute Score": null,
+        "Fraser Institute Rank": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.335,
+          43.6783
+        ]
+      },
+      "properties": {
+        "name": "Subway Academy I",
+        "address": "Subway Academy I Grades 9-12 16 Phin Ave, Toronto http://www.subwayacademyone.com/",
+        "Grades": "Grades 9-12",
+        "Website": "http://www.subwayacademyone.com/",
+        "Fraser Institute Score": null,
+        "Fraser Institute Rank": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3967,
+          43.6554
+        ]
+      },
+      "properties": {
+        "name": "Subway Academy II",
+        "address": "Subway Academy II Grades 11-12 64 Baldwin St, Toronto http://schoolweb.tdsb.on.ca/subwayacademy2/Home.aspx",
+        "Grades": "Grades 11-12",
+        "Website": "http://schoolweb.tdsb.on.ca/subwayacademy2/Home.aspx",
+        "Fraser Institute Score": null,
+        "Fraser Institute Rank": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.4701,
+          43.659
+        ]
+      },
+      "properties": {
+        "name": "THESTUDENTSCHOOL",
+        "address": "THESTUDENTSCHOOL Grades 11-12 160 Glendonwynne Road http://thestudentschool.org/",
+        "Grades": "Grades 11-12",
+        "Website": "http://thestudentschool.org/",
+        "Fraser Institute Score": null,
+        "Fraser Institute Rank": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.5623,
+          43.7225
+        ]
+      },
+      "properties": {
+        "name": "Thistletown Collegiate Institute",
+        "address": "Thistletown Collegiate Institute Grades 9-12 20 Fordwich Cres, Etobicoke",
+        "Grades": "Grades 9-12",
+        "Website": "n/a",
+        "Fraser Institute Score": null,
+        "Fraser Institute Rank": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.4713,
+          43.6612
+        ]
+      },
+      "properties": {
+        "name": "Ursula Franklin Academy",
+        "address": "Ursula Franklin Academy Grades 9-12 146 Glendonwynne Rd http://www.ufacademy.org/v6/",
+        "Grades": "Grades 9-12",
+        "Website": "http://www.ufacademy.org/v6/",
+        "Fraser Institute Score": null,
+        "Fraser Institute Rank": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.4387,
+          43.6872
+        ]
+      },
+      "properties": {
+        "name": "Vaughan Road Academy",
+        "address": "Vaughan Road Academy Grades 9-12 529 Vaughan Rd, York http://schoolweb.tdsb.on.ca/vaughanroad/Home.aspx",
+        "Grades": "Grades 9-12",
+        "Website": "http://schoolweb.tdsb.on.ca/vaughanroad/Home.aspx",
+        "Fraser Institute Score": null,
+        "Fraser Institute Rank": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3298,
+          43.7703
+        ]
+      },
+      "properties": {
+        "name": "Victoria Park Collegiate Institute",
+        "address": "Victoria Park Collegiate Institute Grades 9-12 15 Wallingford Rd, North York http://victoriaparkci.ca/",
+        "Grades": "Grades 9-12",
+        "Website": "http://victoriaparkci.ca/",
+        "Fraser Institute Score": null,
+        "Fraser Institute Rank": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.4172,
+          43.6656
+        ]
+      },
+      "properties": {
+        "name": "West End Alternative School",
+        "address": "West End Alternative School Grades 10-12 777 Bloor St W, Floor 3, Toronto http://westendalternativeschool.weebly.com/",
+        "Grades": "Grades 10-12",
+        "Website": "http://westendalternativeschool.weebly.com/",
+        "Fraser Institute Score": null,
+        "Fraser Institute Rank": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.1934,
+          43.7814
+        ]
+      },
+      "properties": {
+        "name": "West Hill Collegiate Institute",
+        "address": "West Hill Collegiate Institute Grades 9-12 350 Morningside Ave, Scarborough http://schools.tdsb.on.ca/westhill/redirectpage/index.php",
+        "Grades": "Grades 9-12",
+        "Website": "http://schools.tdsb.on.ca/westhill/redirectpage/index.php",
+        "Fraser Institute Score": null,
+        "Fraser Institute Rank": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.59,
+          43.7263
+        ]
+      },
+      "properties": {
+        "name": "West Humber Collegiate Institute",
+        "address": "West Humber Collegiate Institute Grades 9-12 1675 Martin Grove Rd, Etobicoke http://schoolweb.tdsb.on.ca/whci/Home.aspx",
+        "Grades": "Grades 9-12",
+        "Website": "http://schoolweb.tdsb.on.ca/whci/Home.aspx",
+        "Fraser Institute Score": null,
+        "Fraser Institute Rank": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.4702,
+          43.6648
+        ]
+      },
+      "properties": {
+        "name": "Western Technical-Commercial School",
+        "address": "Western Technical-Commercial School Grades 9-12 125 Evelyn Cres, Toronto http://www.wtcs.ca/",
+        "Grades": "Grades 9-12",
+        "Website": "http://www.wtcs.ca/",
+        "Fraser Institute Score": null,
+        "Fraser Institute Rank": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.4955,
+          43.6964
+        ]
+      },
+      "properties": {
+        "name": "Weston Collegiate Institute",
+        "address": "Weston Collegiate Institute Grades 9-12 100 Pine St, York http://westonci.ca/",
+        "Grades": "Grades 9-12",
+        "Website": "http://westonci.ca/",
+        "Fraser Institute Score": null,
+        "Fraser Institute Rank": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.5213,
+          43.7429
+        ]
+      },
+      "properties": {
+        "name": "Westview Centennial Secondary School",
+        "address": "Westview Centennial Secondary School Grades 9-12 755 Oakdale Rd, North York http://schoolweb.tdsb.on.ca/westview/Home.aspx",
+        "Grades": "Grades 9-12",
+        "Website": "http://schoolweb.tdsb.on.ca/westview/Home.aspx",
+        "Fraser Institute Score": null,
+        "Fraser Institute Rank": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.2871,
+          43.7391
+        ]
+      },
+      "properties": {
+        "name": "Wexford Collegiate School for the Arts",
+        "address": "Wexford Collegiate School for the Arts Grades 9-12 1176 Pharmacy Ave, Scarborough http://www.wexfordcsa.ca/",
+        "Grades": "Grades 9-12",
+        "Website": "http://www.wexfordcsa.ca/",
+        "Fraser Institute Score": null,
+        "Fraser Institute Rank": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.4756,
+          43.754
+        ]
+      },
+      "properties": {
+        "name": "William Lyon Mackenzie Collegiate Institute",
+        "address": "William Lyon Mackenzie Collegiate Institute Grades 9-12 20 Tillplain Rd, North York http://wlmac.ca/",
+        "Grades": "Grades 9-12",
+        "Website": "http://wlmac.ca/",
+        "Fraser Institute Score": null,
+        "Fraser Institute Rank": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.2758,
+          43.7508
+        ]
+      },
+      "properties": {
+        "name": "Winston Churchill Collegiate Institute",
+        "address": "Winston Churchill Collegiate Institute Grades 9-12 2239 Lawrence Ave E, Scarborough http://schoolweb.tdsb.on.ca/churchillci/Home.aspx",
+        "Grades": "Grades 9-12",
+        "Website": "http://schoolweb.tdsb.on.ca/churchillci/Home.aspx",
+        "Fraser Institute Score": null,
+        "Fraser Institute Rank": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.2184,
+          43.7818
+        ]
+      },
+      "properties": {
+        "name": "Woburn Collegiate Institute",
+        "address": "Woburn Collegiate Institute Grades 9-12 2222 Ellesmere Rd, Scarborough http://schoolweb.tdsb.on.ca/woburnci/Home.aspx",
+        "Grades": "Grades 9-12",
+        "Website": "http://schoolweb.tdsb.on.ca/woburnci/Home.aspx",
+        "Fraser Institute Score": null,
+        "Fraser Institute Rank": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.5092,
+          43.6905
+        ]
+      },
+      "properties": {
+        "name": "York Humber High School",
+        "address": "York Humber High School Grades 9-12 100 Emmett Ave, York http://schoolweb.tdsb.on.ca/yorkmillsci/Home.aspx",
+        "Grades": "Grades 9-12",
+        "Website": "http://schoolweb.tdsb.on.ca/yorkmillsci/Home.aspx",
+        "Fraser Institute Score": null,
+        "Fraser Institute Rank": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.4761,
+          43.6948
+        ]
+      },
+      "properties": {
+        "name": "York Memorial Collegiate Institute",
+        "address": "York Memorial Collegiate Institute Grades 9-12 2690 Eglinton Ave W, York http://schoolweb.tdsb.on.ca/yorkmillsci/Home.aspx",
+        "Grades": "Grades 9-12",
+        "Website": "http://schoolweb.tdsb.on.ca/yorkmillsci/Home.aspx",
+        "Fraser Institute Score": null,
+        "Fraser Institute Rank": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3793,
+          43.7586
+        ]
+      },
+      "properties": {
+        "name": "York Mills Collegiate Institute",
+        "address": "York Mills Collegiate Institute Grades 10-12 490 York Mills Rd, North York http://schoolweb.tdsb.on.ca/yorkmillsci/Home.aspx",
+        "Grades": "Grades 10-12",
+        "Website": "http://schoolweb.tdsb.on.ca/yorkmillsci/Home.aspx",
+        "Fraser Institute Score": null,
+        "Fraser Institute Rank": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.4521,
+          43.7231
+        ]
+      },
+      "properties": {
+        "name": "Yorkdale Secondary School",
+        "address": "Yorkdale Secondary School Grades 9-12 38 Orfus Rd, North York http://www.yorkdale.net/",
+        "Grades": "Grades 9-12",
+        "Website": "http://www.yorkdale.net/",
+        "Fraser Institute Score": null,
+        "Fraser Institute Rank": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.5144,
+          43.6804
+        ]
+      },
+      "properties": {
+        "name": "Archbishop Romero Catholic School",
+        "address": "Archbishop Romero Catholic School Grades 9-12 99 Humber Blvd, Toronto, Ontario https://www.tcdsb.org/o/stoscarromero",
+        "Grades": "Grades 9-12",
+        "Website": "https://www.tcdsb.org/o/stoscarromero",
+        "Fraser Institute Score": null,
+        "Fraser Institute Rank": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.5112,
+          43.6283
+        ]
+      },
+      "properties": {
+        "name": "Bishop Allen Catholic School",
+        "address": "Bishop Allen Catholic School Grades 9-12 721 Royal York Rd, Toronto, Ontario http://bishopallen.tcdsb.org",
+        "Grades": "Grades 9-12",
+        "Website": "http://bishopallen.tcdsb.org",
+        "Fraser Institute Score": null,
+        "Fraser Institute Rank": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.4464,
+          43.6539
+        ]
+      },
+      "properties": {
+        "name": "Bishop Marrocco/Thomas Merton",
+        "address": "Bishop Marrocco/Thomas Merton Grades 9-12 1515 Bloor St W, Toronto, Ontario https://www.tcdsb.org/o/bishopmarroccothomasmerton",
+        "Grades": "Grades 9-12",
+        "Website": "https://www.tcdsb.org/o/bishopmarroccothomasmerton",
+        "Fraser Institute Score": null,
+        "Fraser Institute Rank": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.2043,
+          43.7999
+        ]
+      },
+      "properties": {
+        "name": "Blessed Mother Teresa Catholic School",
+        "address": "Blessed Mother Teresa Catholic School Grades 9-12 40 Sewells Rd, Toronto, Ontario http://blessedmotherteresa.tcdsb.org",
+        "Grades": "Grades 9-12",
+        "Website": "http://blessedmotherteresa.tcdsb.org",
+        "Fraser Institute Score": null,
+        "Fraser Institute Rank": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3864,
+          43.7972
+        ]
+      },
+      "properties": {
+        "name": "Brebeuf College School",
+        "address": "Brebeuf College School Grades 9-12 211 Steeles Ave E, Toronto, Ontario https://www.tcdsb.org/o/brebeufcollege",
+        "Grades": "Grades 9-12",
+        "Website": "https://www.tcdsb.org/o/brebeufcollege",
+        "Fraser Institute Score": null,
+        "Fraser Institute Rank": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3797,
+          43.6623
+        ]
+      },
+      "properties": {
+        "name": "Coll\u00e8ge Fran\u00e7ais",
+        "address": "Coll\u00e8ge Fran\u00e7ais Grade 9-12 100 Carlton rue, Toronto, Ontario http://collegefrancais.csviamonde.ca",
+        "Grades": "Grade 9-12",
+        "Website": "http://collegefrancais.csviamonde.ca",
+        "Fraser Institute Score": null,
+        "Fraser Institute Rank": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.4421,
+          43.6528
+        ]
+      },
+      "properties": {
+        "name": "St. Mary's Catholic Academy",
+        "address": "St. Mary's Catholic Academy Grades 9-12 66 Dufferin Park Ave, Toronto, Ontario http://stmarysecondary.tcdsb.org",
+        "Grades": "Grades 9-12",
+        "Website": "http://stmarysecondary.tcdsb.org",
+        "Fraser Institute Score": null,
+        "Fraser Institute Rank": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3323,
+          43.6824
+        ]
+      },
+      "properties": {
+        "name": "St. Patrick Catholic Secondary School",
+        "address": "St. Patrick Catholic Secondary School Grades 9-12 49 Felstead Ave, Toronto, Ontario http://stpatrick.tcdsb.org",
+        "Grades": "Grades 9-12",
+        "Website": "http://stpatrick.tcdsb.org",
+        "Fraser Institute Score": null,
+        "Fraser Institute Rank": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3871,
+          43.6644
+        ]
+      },
+      "properties": {
+        "name": "St. Joseph's College School",
+        "address": "St. Joseph's College School Grades 9-12 74 Wellesley St W, Toronto, Ontario http://stjosephcollege.tcdsb.org",
+        "Grades": "Grades 9-12",
+        "Website": "http://stjosephcollege.tcdsb.org",
+        "Fraser Institute Score": null,
+        "Fraser Institute Rank": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.4372,
+          43.6567
+        ]
+      },
+      "properties": {
+        "name": "St.-Fr\u00e8re-Andr\u00e9",
+        "address": "St.-Fr\u00e8re-Andr\u00e9 Grades 9-12 330 Lansdowne Ave, Toronto, Ontario https://essfa.cscmonavenir.ca/",
+        "Grades": "Grades 9-12",
+        "Website": "https://essfa.cscmonavenir.ca/",
+        "Fraser Institute Score": null,
+        "Fraser Institute Rank": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.4372,
+          43.6567
+        ]
+      },
+      "properties": {
+        "name": "Toronto Quest Secondary School",
+        "address": "Toronto Quest Secondary School Grades 9-12 330 Lansdowne Ave, Toronto, Ontario http://ecolesecondairetorontoouest.csviamonde.ca",
+        "Grades": "Grades 9-12",
+        "Website": "http://ecolesecondairetorontoouest.csviamonde.ca",
+        "Fraser Institute Score": null,
+        "Fraser Institute Rank": null
+      }
+    }
+  ]
+}
