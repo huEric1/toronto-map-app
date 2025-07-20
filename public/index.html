@@ -13,9 +13,102 @@
       height: 100%;
       width: 100%;
     }
+
+    /* Feedback Panel */
+    #feedbackContainer {
+      position: absolute;
+      bottom: 50px;
+      left: 0;
+      z-index: 10;
+      background: #fff;
+      padding: 10px;
+      padding-top: 40px;
+      border: 1px solid #ccc;
+      border-radius: 0 8px 8px 0;
+      width: 250px;
+      font-family: sans-serif;
+      transition: transform 0.4s ease, opacity 0.4s ease;
+    }
+    #feedbackContainer.hidden {
+      transform: translateX(-240px);
+      opacity: 0.5;
+    }
+    #feedbackToggleTab {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 30px;
+      background: #0077ff;
+      color: #fff;
+      text-align: center;
+      line-height: 30px;
+      font-size: 14px;
+      font-weight: bold;
+      cursor: pointer;
+      border-radius: 0 8px 0 0;
+      user-select: none;
+      z-index: 12;
+    }
+
+    /* Legend Panel */
+    .esri-legend {
+      position: absolute !important;
+      bottom: 50px;
+      right: 0;
+      width: 250px;
+      background: #fff;
+      border-radius: 8px 0 0 8px;
+      padding-top: 40px;
+      transition: transform 0.4s ease, opacity 0.4s ease;
+    }
+    .esri-legend.hidden {
+      transform: translateX(240px);
+      opacity: 0.5;
+    }
+    #legendToggleTab {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 30px;
+      background: #0077ff;
+      color: #fff;
+      text-align: center;
+      line-height: 30px;
+      font-size: 14px;
+      font-weight: bold;
+      cursor: pointer;
+      border-radius: 8px 0 0 0;
+      user-select: none;
+      z-index: 12;
+    }
+
+    /* Custom controls container inside legend */
+    #layer-controls {
+      margin: 10px;
+      font-size: 14px;
+    }
+    #layer-controls label {
+      display: block;
+      margin: 4px 0;
+    }
   </style>
 </head>
 <body>
+  <!-- Feedback Panel -->
+  <div id="feedbackContainer">
+    <div id="feedbackToggleTab">◀ Hide Feedback</div>
+    <h3 style="margin-top:0;">Submit Feedback</h3>
+    <textarea id="feedbackText" rows="4" cols="28" placeholder="Enter your feedback here..."></textarea><br><br>
+    <button id="submitFeedback">Submit</button>
+    <p id="feedbackStatus" style="font-size:0.9em; color:green;"></p>
+  </div>
+
+  <!-- Legend Toggle (will be inserted into legend) -->
+  <div id="legendToggleTab">◀ Hide Legend</div>
+
+  <!-- Map Container -->
   <div id="viewDiv"></div>
 
   <script>
@@ -25,35 +118,27 @@
     "esri/layers/GeoJSONLayer",
     "esri/widgets/Legend"
   ], (Map, MapView, GeoJSONLayer, Legend) => {
-
-    const map = new Map({
-      basemap: "streets-navigation-vector"
-    });
-
+    const map = new Map({ basemap: "streets-navigation-vector" });
     const view = new MapView({
       container: "viewDiv",
       map: map,
-      center: [-79.4, 43.7], // Toronto
+      center: [-79.4, 43.7],
       zoom: 11
     });
 
-    // --- Trails Layers ---
+    // Trails
     const geojsonFiles = [
-      "toronto_trails.geojson",
-      "toronto_trails1.geojson",
-      "toronto_trails2.geojson",
-      "toronto_trails3.geojson",
+      "toronto_trails.geojson","toronto_trails1.geojson",
+      "toronto_trails2.geojson","toronto_trails3.geojson",
       "toronto_trails4.geojson"
     ];
-
     const trailColors = {
-      "toronto_trails.geojson": "#0077ff",  // Blue
-      "toronto_trails1.geojson": "#00cc44", // Green
-      "toronto_trails2.geojson": "#ff0000", // Red
-      "toronto_trails3.geojson": "#ff9900", // Orange
-      "toronto_trails4.geojson": "#808080"  // Grey
+      "toronto_trails.geojson": "#0077ff",
+      "toronto_trails1.geojson": "#00cc44",
+      "toronto_trails2.geojson": "#ff0000",
+      "toronto_trails3.geojson": "#ff9900",
+      "toronto_trails4.geojson": "#808080"
     };
-
     const trailNames = {
       "toronto_trails.geojson": "Safe Trail",
       "toronto_trails1.geojson": "Safe Bikelane",
@@ -62,108 +147,149 @@
       "toronto_trails4.geojson": "Bike Trails (Not Rated for Danger)"
     };
 
+    const layers = [];
     geojsonFiles.forEach(file => {
       const layer = new GeoJSONLayer({
         url: file,
-        title: trailNames[file] || "Trail",
-        renderer: {
-          type: "simple",
-          symbol: {
-            type: "simple-line",
-            color: trailColors[file],
-            width: 2
-          }
-        },
-        popupTemplate: {
-          title: "{name}",
-          content: "Trail data: " + (trailNames[file] || file)
-        }
+        title: trailNames[file],
+        id: file,
+        renderer: { type: "simple", symbol: { type: "simple-line", color: trailColors[file], width: 2 } },
+        popupTemplate: { title: "{name}", content: "Trail data: " + (trailNames[file] || file) }
       });
+      layers.push(layer);
       map.add(layer);
     });
 
-    // --- Schools Layer ---
+    // Schools
     const schoolLayer = new GeoJSONLayer({
       url: "final_schools_flat.geojson",
       title: "Secondary Schools",
+      id: "schools",
       renderer: {
         type: "simple",
-        symbol: {
-          type: "simple-marker",
-          style: "circle",
-          color: "#ffcc00",
-          size: 8,
-          outline: { color: "#333", width: 1 }
-        }
+        symbol: { type: "simple-marker", style: "circle", color: "#ffcc00", size: 8, outline: { color: "#333", width: 1 } }
       },
       popupTemplate: {
         title: "{name}",
-        content: `
-          <b>Grades:</b> {Grades}<br>
-          <b>Address:</b> {Address}<br>
-          <b>Fraser Score:</b> {Fraser Institute Score}<br>
-          <b>Fraser Rank:</b> {Fraser Institute Rank}<br>
-          <a href="{Website}" target="_blank">Visit Website</a>
-        `
+        content: `<b>Grades:</b> {Grades}<br>
+                  <b>Address:</b> {Address}<br>
+                  <b>Fraser Score:</b> {Fraser Institute Score}<br>
+                  <b>Fraser Rank:</b> {Fraser Institute Rank}<br>
+                  <a href="{Website}" target="_blank">Visit Website</a>`
       }
     });
+    layers.push(schoolLayer);
     map.add(schoolLayer);
 
-    // --- Bike Station Layers ---
+    // Combine all Bike Stations under one group toggle
+    const bikeStationLayers = [];
     const bikeFiles = [
-      "bike_station.geojson",
-      "bike_station1.geojson",
-      "bike_station2.geojson",
-      "bike_station3.geojson",
-      "bike_station4.geojson",
-      "bike_station5.geojson",
-      "bike_station6.geojson",
-      "bike_station7.geojson",
-      "bike_station8.geojson",
-      "bike_station9.geojson",
-      "bike_station10.geojson",
-      "bike_station11.geojson",
-      "bike_station12.geojson",
-      "bike_station13.geojson",
-      "bike_station14.geojson",
-      "bike_station15.geojson",
-      "bike_station16.geojson",
-      "bike_station17.geojson"
+      "bike_station.geojson","bike_station1.geojson","bike_station2.geojson",
+      "bike_station3.geojson","bike_station4.geojson","bike_station5.geojson",
+      "bike_station6.geojson","bike_station7.geojson","bike_station8.geojson",
+      "bike_station9.geojson","bike_station10.geojson","bike_station11.geojson",
+      "bike_station12.geojson","bike_station13.geojson","bike_station14.geojson",
+      "bike_station15.geojson","bike_station16.geojson","bike_station17.geojson"
     ];
-
-    // All stations use blue now
-    const stationColor = "#0077ff";
-
     bikeFiles.forEach(file => {
       const stationLayer = new GeoJSONLayer({
         url: file,
         title: "Bike Stations",
-        renderer: {
-          type: "simple",
-          symbol: {
-            type: "simple-marker",
-            style: "circle",
-            size: 6,
-            color: stationColor,
-            outline: { color: "#000", width: 1 }
-          }
-        },
-        popupTemplate: {
-          title: "{name}",
-          content: "Capacity: {capacity}<br>Address: {address}"
-        }
+        visible: true,
+        renderer: { type: "simple", symbol: { type: "simple-marker", style: "circle", size: 6, color: "#0077ff", outline: { color: "#000", width: 1 } } },
+        popupTemplate: { title: "{name}", content: "Capacity: {capacity}<br>Address: {address}" }
       });
+      bikeStationLayers.push(stationLayer);
       map.add(stationLayer);
     });
 
-    const legend = new Legend({
-      view: view,
-      style: "card"
-    });
+    let bikeStationsVisible = true;
 
+    // Legend Widget
+    const legend = new Legend({ view: view, style: "card" });
     view.ui.add(legend, "bottom-right");
-  });
-</script>
 
+    // Add toggle checkboxes inside legend
+    view.when(() => {
+      const legendElement = document.querySelector('.esri-legend');
+      if (legendElement) {
+        legendElement.insertBefore(document.getElementById('legendToggleTab'), legendElement.firstChild);
+
+        const controlsHTML = `
+          <strong>Toggle Layers</strong><br>
+          ${layers.map(layer => `
+            <label>
+              <input type="checkbox" data-layer="${layer.id}" checked>
+              ${layer.title}
+            </label>`).join('')}
+          <label>
+            <input type="checkbox" id="bikeStationsToggle" checked>
+            Bike Stations
+          </label>
+        `;
+
+        const controlsContainer = document.createElement('div');
+        controlsContainer.id = "layer-controls";
+        controlsContainer.innerHTML = controlsHTML;
+        legendElement.insertBefore(controlsContainer, legendElement.children[1]);
+
+        // Layer toggles for trails + schools
+        controlsContainer.querySelectorAll('input[data-layer]').forEach(cb => {
+          cb.addEventListener('change', (e) => {
+            const targetLayer = layers.find(l => l.id === e.target.getAttribute('data-layer'));
+            if (targetLayer) targetLayer.visible = e.target.checked;
+          });
+        });
+
+        // Bike Stations toggle
+        document.getElementById('bikeStationsToggle').addEventListener('change', (e) => {
+          bikeStationsVisible = e.target.checked;
+          bikeStationLayers.forEach(layer => layer.visible = bikeStationsVisible);
+        });
+      }
+    });
+  });
+
+  // Toggle utility
+  const toggleElement = (el, tab, expandText, collapseText) => {
+    el.classList.toggle('hidden');
+    tab.textContent = el.classList.contains('hidden') ? expandText : collapseText;
+  };
+
+  // Feedback toggle
+  const feedbackContainer = document.getElementById('feedbackContainer');
+  const feedbackTab = document.getElementById('feedbackToggleTab');
+  feedbackTab.addEventListener('click', () => {
+    toggleElement(feedbackContainer, feedbackTab, '▶ Show Feedback', '◀ Hide Feedback');
+  });
+
+  // Legend toggle
+  const legendTab = document.getElementById('legendToggleTab');
+  legendTab.addEventListener('click', () => {
+    const legendElement = document.querySelector('.esri-legend');
+    if (legendElement) {
+      toggleElement(legendElement, legendTab, '▶ Show Legend', '◀ Hide Legend');
+    }
+  });
+
+  // Feedback submission
+  document.getElementById('submitFeedback').addEventListener('click', async () => {
+    const feedback = document.getElementById('feedbackText').value.trim();
+    if (!feedback) return alert("Please enter some feedback!");
+
+    try {
+      const res = await fetch('/feedback', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ text: feedback })
+      });
+      const result = await res.json();
+      document.getElementById('feedbackText').value = '';
+      document.getElementById('feedbackStatus').innerText = result.message || "Feedback submitted!";
+    } catch {
+      document.getElementById('feedbackStatus').innerText = "Error submitting feedback.";
+    }
+  });
+  </script>
 </body>
 </html>
