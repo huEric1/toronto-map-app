@@ -941,10 +941,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -10.34529,
-          10.70585
-        ]
+        "coordinates": [-79.3453, 43.7058]
       },
       "properties": {
         "name": "Marc Garneau Collegiate Institute",
