@@ -14,6 +14,39 @@
       width: 100%;
     }
 
+    /* Branding Container (Logo + Text) */
+    #ecoRouteBranding {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      z-index: 20;
+      text-align: center;
+    }
+
+    /* Shield/Bike Logo */
+    #ecoRouteLogo {
+      width: 90px;
+      display: block;
+      margin: 0 auto;
+      opacity: 0.9;
+    }
+    #ecoRouteLogo:hover {
+      opacity: 1;
+    }
+
+    /* EcoRoute Text Label */
+    #ecoRouteText {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 18px;
+      font-weight: bold;
+      color: #3a5330; /* Dark green to match branding */
+      margin-top: 5px;
+      opacity: 0.9;
+    }
+    #ecoRouteText:hover {
+      opacity: 1;
+    }
+
     /* Feedback Panel */
     #feedbackContainer {
       position: absolute;
@@ -96,6 +129,12 @@
   </style>
 </head>
 <body>
+  <!-- EcoRoute Branding (Logo + Text) -->
+  <div id="ecoRouteBranding">
+    <img id="ecoRouteLogo" src="ecoroute-logo.png" alt="EcoRoute Logo">
+    <div id="ecoRouteText">EcoRoute</div>
+  </div>
+
   <!-- Feedback Panel -->
   <div id="feedbackContainer">
     <div id="feedbackToggleTab">◀ Hide Feedback</div>
@@ -181,7 +220,7 @@
     layers.push(schoolLayer);
     map.add(schoolLayer);
 
-    // Combine all Bike Stations under one group toggle
+    // Bike Stations
     const bikeStationLayers = [];
     const bikeFiles = [
       "bike_station.geojson","bike_station1.geojson","bike_station2.geojson",
@@ -197,7 +236,7 @@
         title: "Bike Stations",
         visible: true,
         renderer: { type: "simple", symbol: { type: "simple-marker", style: "circle", size: 6, color: "#0077ff", outline: { color: "#000", width: 1 } } },
-        popupTemplate: { title: "{name}", content: "Capacity: {capacity}<br>Address: {address}" }
+        popupTemplate: { title: "{name}", content: "Capacity: {20}" }
       });
       bikeStationLayers.push(stationLayer);
       map.add(stationLayer);
@@ -209,7 +248,7 @@
     const legend = new Legend({ view: view, style: "card" });
     view.ui.add(legend, "bottom-right");
 
-    // Add toggle checkboxes inside legend
+    // Custom toggle controls (excluding Safe Trail)
     view.when(() => {
       const legendElement = document.querySelector('.esri-legend');
       if (legendElement) {
@@ -217,11 +256,13 @@
 
         const controlsHTML = `
           <strong>Toggle Layers</strong><br>
-          ${layers.map(layer => `
-            <label>
-              <input type="checkbox" data-layer="${layer.id}" checked>
-              ${layer.title}
-            </label>`).join('')}
+          ${layers
+            .filter(layer => layer.id !== "toronto_trails.geojson")
+            .map(layer => `
+              <label>
+                <input type="checkbox" data-layer="${layer.id}" checked>
+                ${layer.title}
+              </label>`).join('')}
           <label>
             <input type="checkbox" id="bikeStationsToggle" checked>
             Bike Stations
@@ -233,7 +274,7 @@
         controlsContainer.innerHTML = controlsHTML;
         legendElement.insertBefore(controlsContainer, legendElement.children[1]);
 
-        // Layer toggles for trails + schools
+        // Layer toggle events
         controlsContainer.querySelectorAll('input[data-layer]').forEach(cb => {
           cb.addEventListener('change', (e) => {
             const targetLayer = layers.find(l => l.id === e.target.getAttribute('data-layer'));
